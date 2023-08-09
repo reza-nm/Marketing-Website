@@ -1,12 +1,14 @@
 import { Typography, Button } from "@mui/material";
 import Header from "./components/Header";
+import Services from "./components/Services";
+import AboutUs from "./components/AboutUs";
 function App() {
   return (
     <>
       <div className="hero-image">
         <Header></Header>
         <Typography
-          sx={{ fontSize: { xs: "3rem", sm: "4rem", md: "7rem", xl: "10rem" } }}
+          sx={{ fontSize: { xs: "3rem", sm: "4rem", md: "7rem", lg: "8rem" } }}
           variant="h1"
           color="initial"
           overflow={"hidden"}
@@ -31,25 +33,8 @@ function App() {
           Contact us
         </Button>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      {/* prebuilt codes start*/};{/* prebuilt codes end*/}
+      <Services></Services>
+      <AboutUs></AboutUs>
     </>
   );
 }

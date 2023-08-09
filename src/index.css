@@ -14,6 +14,7 @@
   --large-screen-width: 1170px;
   --small-screen-width: 90vw;
   --fixed-width: 50rem;
+ 
 }
 * {
   margin: 0;
@@ -27,6 +28,7 @@ body {
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
+  background-color: #fff;
 }
 a {
   text-decoration: none;
