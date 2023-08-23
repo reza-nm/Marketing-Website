@@ -250,7 +250,7 @@ const Services = () => {
           </CardContent>
         </Card>
       </Box>
-      ;
+      
     </>
   );
 };
