@@ -2,6 +2,7 @@ import { Typography, Button } from "@mui/material";
 import Header from "./components/Header";
 import Services from "./components/Services";
 import AboutUs from "./components/AboutUs";
+import OurFurniture from "./components/OurFurniture";
 function App() {
   return (
     <>
@@ -35,6 +36,7 @@ function App() {
       </div>
       <Services></Services>
       <AboutUs></AboutUs>
+      <OurFurniture></OurFurniture>
     </>
   );
 }

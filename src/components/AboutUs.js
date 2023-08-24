@@ -3,7 +3,7 @@ import BedImage from "../assets/images-icons/img-1.png";
 const AboutUs = () => {
   return (
     <>
-      <Grid container px={"4rem"} sx={{ backgroundColor: "#ffb607" }}>
+      <Grid container px={"4rem"} sx={{ backgroundColor: "#ffb607" }} pb={"3rem"}>
         <Grid item={true} xs={12} sm={6} mt={"4rem"}>
           <Typography variant="h3" color="white" mb={"1.5rem"}>
             About us
